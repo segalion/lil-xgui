@@ -1,0 +1,61 @@
+.lil-gui {
+	--background-color: #e6e6f6;
+	--text-color: #000000;
+	--title-background-color: #9caaca;
+	--title-text-color: #0b0d3d;
+	--widget-color: #d1dae8;
+	--hover-color: #bae1fc;
+	--focus-color: #efb78c;
+	--number-color: #5b1a1a;
+	--string-color: #727b32;
+	--font-size: 11px;
+	--padding: 2px;
+	--spacing: 3px;
+	--widget-height: 24px;
+	--name-width: 5%;
+	--slider-input-width: 33%;
+	--slider-input-min-width: 30px;
+	--color-input-width: 80%;
+	--folder-indent: 12px;
+	--widget-padding: 0 0 0 5px;
+	--widget-border-radius: 8px;
+	--scrollbar-width: 12px;	
+}
+
+.lil-gui .remove-bar {
+    &::before { content: none; }
+}
+
+.lil-gui .controller .contexmenu {
+    display: flex;
+    justify-content: flex-start;
+}
+    
+.lil-gui .grow-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 18px;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.lil-gui .grow-wrapper:focus-within {
+    width: 100%;
+}
+
+.lil-gui .grow-wrapper input {
+    padding-left: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lil-gui .grow-wrapper:focus-within input {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lil-gui .grow-wrapper .grow-icon {
+    position: absolute;
+    left: var(--padding);
+}

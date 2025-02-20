@@ -1,0 +1,36 @@
+{
+    "name": "lil-xgui",
+    "version": "0.1.0",
+    "main": "dist/lil-xgui.min.js",
+    "module": "dist/lil-xgui.min.js",
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "lil-gui",
+        "GUI",
+        "JavaScript",
+        "UI"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/segalion/lil-xgui.git"
+    },
+    "dependencies": {
+        "lil-gui": "^0.20.0",
+        "lil-xgui": "^0.1.0"
+    },
+    "scripts": {
+        "build": "node build.js"
+    },
+    "license": "MIT",
+    "description": "ultralight eXtended wrapper for lil-gui (icons, multicontrol rows, accordion, filter, lots new controls ...).",
+    "directories": {
+        "example": "examples"
+    },
+    "author": "segalion",
+    "bugs": {
+        "url": "https://github.com/segalion/lil-xgui/issues"
+    },
+    "homepage": "https://github.com/segalion/lil-xgui#readme"
+}

@@ -23,6 +23,7 @@
     "scripts": {
         "build": "node build.js"
     },
+    "type": "module",
     "license": "MIT",
     "description": "ultralight eXtended wrapper for lil-gui (icons, multicontrol rows, accordion, filter, lots new controls ...).",
     "directories": {

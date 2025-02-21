@@ -1,7 +1,7 @@
 //import {GUI} from "lil-gui";
 // import XGUI from "../src/XGUI";
 import { GUI } from "https://cdn.jsdelivr.net/npm/lil-gui@0.20/+esm";
-import { XGui } from "../dist/lil-xgui.min.js";
+import { XGUI } from "../dist/lil-xgui.min.js";
 /*
 import styles from "../src/styles.css?inline";
 

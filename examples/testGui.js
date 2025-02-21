@@ -1,4 +1,5 @@
-import {GUI} from "lil-gui";
+//import {GUI} from "lil-gui";
+import GUI from 'https://cdn.jsdelivr.net/npm/lil-gui@0.20/+esm';
 import XGUI from "../src/XGUI";
 
 import styles from "../src/styles.css?inline";

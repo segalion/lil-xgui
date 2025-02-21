@@ -1,7 +1,7 @@
 //import {GUI} from "lil-gui";
 import GUI from 'https://cdn.jsdelivr.net/npm/lil-gui@0.20/+esm';
 import XGUI from "../src/XGUI";
-
+/*
 import styles from "../src/styles.css?inline";
 
 function injectStyles() {
@@ -13,7 +13,7 @@ function injectStyles() {
 }
 
 injectStyles();
-
+*/
 // Agregar controles estándar con y sin íconos
 const sets = { text: "prueba", filter: "", img:"./assets/frontVerdes.jpeg", speed: 8, enable: true, x: 2, y: 4, player1: true, player2: true, player3: false, player4: false};
 let gui,lilgui;

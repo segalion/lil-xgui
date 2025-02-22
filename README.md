@@ -1,5 +1,7 @@
 # lil-xgui
-A lightweight wrapper for [lil-gui](https://github.com/georgealways/lil-gui) that extends its functionality without modifying it. lil-xgui follows the same philosophy: minimal, powerful, and efficient.
+An ultralightweight wrapper for [lil-gui](https://github.com/georgealways/lil-gui) that extends its functionality without modifying it. 
+
+lil-xgui follows the same philosophy: minimal, powerful, and efficient.
 
 ## ✨ Features
 - **Icons in controllers and folders** with `.icon(iconName)` access to >200.000 open source vector icons by its name.
@@ -12,3 +14,7 @@ A lightweight wrapper for [lil-gui](https://github.com/georgealways/lil-gui) tha
 ## 🚀 Installation
 ```sh
 npm install lil-xgui
+````
+
+## 🧪 Live example
+[lil-xgui example](https://segalion.github.io/lil-xgui/examples/index.html)
